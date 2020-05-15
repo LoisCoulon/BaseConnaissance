@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7511aa07d2971b0743bf2d29d5059199",
+    "content-hash": "94be8cc7f9bfdda9bf174c96e3692808",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2595,69 +2595,8 @@
             "time": "2020-04-12T16:45:47+00:00"
         },
         {
-            "name": "symfony/dotenv",
-            "version": "v5.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dotenv.git",
-                "reference": "28658ee990ea643c8111bac242d6ee5f3a15ef72"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/28658ee990ea643c8111bac242d6ee5f3a15ef72",
-                "reference": "28658ee990ea643c8111bac242d6ee5f3a15ef72",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2.5"
-            },
-            "require-dev": {
-                "symfony/process": "^4.4|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Dotenv\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Registers environment variables from a .env file",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2020-03-27T16:56:45+00:00"
-        },
-        {
             "name": "symfony/error-handler",
-<<<<<<< HEAD
-            "version": "v5.0.7",
-=======
             "version": "v5.0.8",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
@@ -3788,11 +3727,7 @@
                 "mime",
                 "mime-type"
             ],
-<<<<<<< HEAD
-            "time": "2020-03-27T16:56:45+00:00"
-=======
             "time": "2020-04-17T03:29:44+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/monolog-bridge",
@@ -4181,11 +4116,7 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-<<<<<<< HEAD
-            "version": "v1.15.0",
-=======
             "version": "v1.17.0",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
@@ -4208,11 +4139,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "1.15-dev"
-=======
                     "dev-master": "1.17-dev"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
                 }
             },
             "autoload": {
@@ -4247,11 +4174,7 @@
                 "portable",
                 "shim"
             ],
-<<<<<<< HEAD
-            "time": "2020-03-09T19:04:49+00:00"
-=======
             "time": "2020-05-12T16:47:27+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -4318,11 +4241,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-<<<<<<< HEAD
-            "version": "v1.15.0",
-=======
             "version": "v1.17.0",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -4330,13 +4249,8 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
-=======
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
                 "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
                 "shasum": ""
             },
             "require": {
@@ -4348,11 +4262,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "1.15-dev"
-=======
                     "dev-master": "1.17-dev"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
                 }
             },
             "autoload": {
@@ -4398,13 +4308,8 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
-                "reference": "0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
-=======
                 "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a760d8964ff79ab9bf057613a5808284ec852ccc",
                 "reference": "a760d8964ff79ab9bf057613a5808284ec852ccc",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
                 "shasum": ""
             },
             "require": {
@@ -4413,11 +4318,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "1.15-dev"
-=======
                     "dev-master": "1.17-dev"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
                 }
             },
             "autoload": {
@@ -4453,11 +4354,7 @@
                 "portable",
                 "shim"
             ],
-<<<<<<< HEAD
-            "time": "2020-02-27T09:26:54+00:00"
-=======
             "time": "2020-05-12T16:47:27+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/process",
@@ -4812,11 +4709,7 @@
         },
         {
             "name": "symfony/security-core",
-<<<<<<< HEAD
-            "version": "v5.0.7",
-=======
             "version": "v5.0.8",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
@@ -4885,11 +4778,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2020-03-30T14:14:32+00:00"
-=======
             "time": "2020-04-21T21:19:41+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/security-csrf",
@@ -5006,11 +4895,7 @@
         },
         {
             "name": "symfony/security-http",
-<<<<<<< HEAD
-            "version": "v5.0.7",
-=======
             "version": "v5.0.8",
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-http.git",
@@ -5071,11 +4956,7 @@
             ],
             "description": "Symfony Security Component - HTTP Integration",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2020-03-30T14:14:32+00:00"
-=======
             "time": "2020-04-06T10:40:56+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/serializer",
@@ -5930,11 +5811,7 @@
                 "debug",
                 "dump"
             ],
-<<<<<<< HEAD
-            "time": "2020-03-27T16:56:45+00:00"
-=======
             "time": "2020-04-12T16:45:47+00:00"
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
         },
         {
             "name": "symfony/var-exporter",
@@ -6415,60 +6292,6 @@
     ],
     "packages-dev": [
         {
-<<<<<<< HEAD
-            "name": "easycorp/easy-log-handler",
-            "version": "v1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/EasyCorp/easy-log-handler.git",
-                "reference": "224e1dfcf9455aceee89cd0af306ac097167fac1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/EasyCorp/easy-log-handler/zipball/224e1dfcf9455aceee89cd0af306ac097167fac1",
-                "reference": "224e1dfcf9455aceee89cd0af306ac097167fac1",
-                "shasum": ""
-            },
-            "require": {
-                "monolog/monolog": "~1.6|~2.0",
-                "php": ">=7.1",
-                "symfony/yaml": "^3.4|^4.0|^5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasyCorp\\EasyLog\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Javier Eguiluz",
-                    "email": "javiereguiluz@gmail.com"
-                },
-                {
-                    "name": "Project Contributors",
-                    "homepage": "https://github.com/EasyCorp/easy-log-handler"
-                }
-            ],
-            "description": "A handler for Monolog that optimizes log messages to be processed by humans instead of software. Improve your productivity with logs that are easy to understand.",
-            "homepage": "https://github.com/EasyCorp/easy-log-handler",
-            "keywords": [
-                "easy",
-                "log",
-                "logging",
-                "monolog",
-                "productivity"
-            ],
-            "abandoned": true,
-            "time": "2019-10-24T07:13:31+00:00"
-        },
-        {
-=======
->>>>>>> c2116f888c728ad82ca7e71e4034d328ff44aeba
             "name": "nikic/php-parser",
             "version": "v4.4.0",
             "source": {
@@ -6787,6 +6610,63 @@
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
             "time": "2020-03-30T11:42:42+00:00"
+        },
+        {
+            "name": "symfony/dotenv",
+            "version": "v5.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dotenv.git",
+                "reference": "28658ee990ea643c8111bac242d6ee5f3a15ef72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/28658ee990ea643c8111bac242d6ee5f3a15ef72",
+                "reference": "28658ee990ea643c8111bac242d6ee5f3a15ef72",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "require-dev": {
+                "symfony/process": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Dotenv\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Registers environment variables from a .env file",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2020-03-27T16:56:45+00:00"
         },
         {
             "name": "symfony/maker-bundle",
