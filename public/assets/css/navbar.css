@@ -9,7 +9,7 @@ body {
     background-color: #ffffff;
 }
 
-.navbar ul {
+.navbar ul:first-child {
     margin-right: 140px;
 }
 

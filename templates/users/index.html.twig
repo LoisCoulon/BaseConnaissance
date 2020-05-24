@@ -2,21 +2,8 @@
 {% block title %}Gestion des utilisateurs{% endblock %}
 {% block body %}
     {% include 'navbar.html.twig'%}
-    <div class="content">
-        <div class="row">
-            <div class="col-sm-2" id="one">
-                <div class="d-flex custom" id="wrapper">
-                    <div class="bg-light border-right" id="sidebar-wrapper">
-                        <div class="list-group list-group-flush">
-                            <a href= "{{ path('users_index') }}" class="list-group-item list-group-item-action bg-light">Utilisateur</a>
-                            <a href="{{ path('context_create') }}" class="list-group-item list-group-item-action bg-light">Contexte</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
+
+    <div class="container mt-5">
         <h2 class="text-center pb-3">Liste des utilisateurs</h2>
         <table class="table table-bordered table-striped text-center">
             <thead class="thead-dark">
@@ -66,5 +53,8 @@
                 {{ message }}
             </div>
         {% endfor %}
+    </div>
+    <div class="container mt-2">
+    <a href="{{ path('context_create') }}">Liste des contextes</a>
     </div>
 {% endblock %}
