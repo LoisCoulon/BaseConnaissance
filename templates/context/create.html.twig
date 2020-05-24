@@ -13,7 +13,7 @@
                 {{ context.id }} -
                 {{ context.name }}
                 {{ include('context/delete.html.twig') }}
-                <br>
+
             {% endfor %}
             {{ form(formContext) }}
             <a href="{{ path('users_index') }}">Liste des utilisateurs</a>
