@@ -1,0 +1,8 @@
+<form method="post" action="{{ path('context_delete', {'id': context.id}) }}" onsubmit="return confirm('Voulez vous supprimer ce contexte ? ');">
+    <div class="form-group">
+        <input type="hidden" class="form-control" name="_method" value="DELETE">
+
+        <input type="hidden" class="form-control" name="_token" value="{{ csrf_token('delete' ~ context.id) }}">
+        <button class="btn btn-link">Supprimer</button>
+    </div>
+</form>

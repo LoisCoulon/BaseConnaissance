@@ -10,7 +10,15 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     {% if is_granted('ROLE_ADMIN') %}
-                        <a class="nav-link" href="{{ path('users_index') }}">Admin</a>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="nav-link mr-5">Admin</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="{{ path('users_index') }}" class="nav-link">Utilisateurs</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('context_create') }}" class="nav-link">Contextes</a>
+                        </li>
+                    </ul>
                     {% endif %}
                 </li>
                 <li class="nav-item">
