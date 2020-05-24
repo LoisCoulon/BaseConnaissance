@@ -1,9 +1,11 @@
 # Projet base de connaissance
 
-Projet de fin d'année de la formation WebImPulse 2019 concernant une base de connaissance.
+Le projet de base de connaissance entre dans le cadre de la formation Web in Pulse de l’école centrale de Nantes.
+
+Durant cette formation, nous avions comme projet la création d’un système de base de connaissance collaborative pour l’entreprise UmanIT encadré par Mr Vincent Graillot.
 
 
-## Pour initialiser le projet
+## Initialiser le projet
 
 1 - Effectuer la commande  pour récupérer l'intégralité du projet depuis Github vers votre poste.
 ```
@@ -24,15 +26,42 @@ symfony console assets:install public
 DATABASE_URL=postgresql://{nom}:{motdepasse@{adresse de la bdd}/{nomdelabasededonnée}?serverVersion={versionDuServeur}&charset=utf8
 ``` 
 
-5 - Effectuer l'application des migrations sur le terminal
+5 - Effectuer l'application des migrations sur le terminal ain d'appliquer les changements sur votre base de donnée
 
 ``
 Symfony console do:mi:mi
 ``
  
 6 - Le projet est prêt à être utilisé sur symfony
+## Base de donnée DEMO 
 
-## Règle 
+
+Une base de donnée démo est disponible dans le projet.
+Celle-ci est au format SQL .
+
+`` 
+BDD-Demo.sql
+``
+La base de donnée est fournis avec deux comptes.
+
+Compte Administrateur 
+
+Identifiant  : 
+`Administrateur`
+
+Mot de passe : `root`
+
+-----
+
+Compte Utilisateur 
+
+Identifiant  : 
+`Utilisateur`
+
+Mot de passe : `user`
+
+
+## Règle de développement
 ### Les branches
 
 `Master` = Branche source du projet  **(Ne pas push dessus)**.
@@ -104,9 +133,11 @@ git status
 
 ## Source
 
-* [Tester le projet](http://xxxx) - Lien vers le projet live (en cours)
+* [Tester le projet](https://base-de-connaissance.nicolas-le-stunff.fr/) - Lien vers le projet live
 * [Symfony](https://symfony.com/doc/current/index.html#gsc.tab=0) - Documentation  de symfony
-
-
+* [Ck editor](https://symfony.com/doc/current/bundles/FOSCKEditorBundle/index.html)
+* [Adobe XD](https://creativecloud.adobe.com/apps/download/xd?promoid=B8NR3RT1&mv=other)
+* [Comment déployer une application Symfony](https://symfony.com/doc/current/deployment.html)
+* [Mailer](https://symfony.com/doc/current/mailer.html)
 
 
