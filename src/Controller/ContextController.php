@@ -61,5 +61,18 @@ class ContextController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/admin/context/{id}", name="context_delete", methods={"DELETE"})
+     * *  @Security("is_granted('ROLE_ADMIN')")
+     */
+    public function delete(Request $request, Context $context): Response
+    {
+        if ($this->isCsrfTokenValid('delete'.$context->getId(), $request->request->get('_token'))) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->remove($context);
+            $entityManager->flush();
+        }
 
+        return $this->redirectToRoute('context_create');
+    }
 }

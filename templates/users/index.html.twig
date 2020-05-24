@@ -1,8 +1,5 @@
 {% extends 'base.html.twig' %}
 {% block title %}Gestion des utilisateurs{% endblock %}
-{#{% block stylesheets %}
-    {{ parent() }}
-{% endblock %}#}
 {% block body %}
     {% include 'navbar.html.twig'%}
     <div class="content">
@@ -46,7 +43,7 @@
                         {%   endif %}</td>
 
                     <td scope="row">
-                        <a href="{{ path ('app_send_token',{'id' : user.id}) }}">Réinitialiser</a>
+                        <a href="{{ path ('app_send_token',{'id' : user.id}) }}" onclick="return confirm('Un mail de réinitialisation de mot de passe sera envoyé à cet utilisateur. ');">Réinitialiser</a>
                     </td>
                     <td scope="row">
                         {% if (user.roles ? user.roles == ["ROLE_ADMIN"]) %}

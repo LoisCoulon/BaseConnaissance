@@ -26,6 +26,7 @@
             {% for context in contexts %}
                 {{ context.id }} -
                 {{ context.name }}
+                {{ include('context/delete.html.twig') }}
                 <br>
             {% endfor %}
             {{ form(formContext) }}
