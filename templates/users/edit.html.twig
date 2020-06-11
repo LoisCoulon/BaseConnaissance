@@ -25,8 +25,10 @@
         {% endif %}
 {#        Si l'utilisateur est administrateur, il sera renvoyé sur la page d'administration, sinon il sera renvoyé sur la page d'accueil#}
         {% if (is_granted("ROLE_ADMIN")) %}
+            <br>
             <a href="{{ path('users_index') }}">Revenir à la liste</a>
         {% else %}
+            <br>
             <a href="{{ path('knowledgesheet') }}">Revenir à l'accueil</a>
         {%  endif %}
 {#        Autorise l'administrateur à supprimer un compte, à condition que ce ne soit pas son compte#}
