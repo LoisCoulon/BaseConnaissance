@@ -9,6 +9,7 @@ use phpDocumentor\Reflection\Types\Collection;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
+use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
@@ -26,7 +27,7 @@ class UsersType extends AbstractType
     {
         $builder
             ->add('username' ,TextType::class,['label'=>'Identifiant'])
-            ->add('email', TextType::class,['label'=>'E-mail']);
+            ->add('email', EmailType::class,['label'=>'E-mail']);
 
         if ($options['is_admin'] === true) {
             $builder->add('roles', ChoiceType::class, [
